@@ -16,28 +16,40 @@ body {
 .container {
     display: flex;
     height: 100vh;
+    background-color: #000;
+    margin-top: 5px;
+    margin-left: 45px;
 }
 
+
 .sidebar {
-    width: 320px;
+    width: 700px;
     background-color: #121212;
     padding: 25px;
     padding-bottom: 90px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: -38px;
 }
 
 .nav-logo i {
-    font-size: 34px;
+    font-size:34px;
     cursor: pointer;
+    margin-bottom: -60px;
+     margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
 }
 
-.nav-logo:hover  {
-   color: #00e713;
-   transition: 0.3s;
-}
+.button-mais i {
+    margin-left: 300px;
+    font-size: 100px;
 
+}
 .nav-libary { 
     display: flex;
     align-items: center;
@@ -53,7 +65,7 @@ body {
 
 .nav-playlist, .nav-podcast {
     background-color: #242424;
-    padding: 12px;
+    padding: 20px;
     border-radius: 8px;   
 }
 
@@ -70,7 +82,7 @@ body {
 }
 
 .nav-playlist p, .nav-podcast p {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .nav-footer {
@@ -100,15 +112,47 @@ main {
     padding: 20px;
     flex-grow: 1;
     overflow-y: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.nav-bar-home {
+    margin-left: 258px;
+    margin-top: 20px;
+}
+
+.button-home {
+    display: flex;
+    align-items: center;
+    background-color: #181818;
+    padding: 13px 25px;
+    border-radius: 100%;
+    width: 10px;
+    margin-left: -170px;
+
+}
+
+.button-home i {
+    display: flex;
+    align-items: center;
+    color: #B7B3B6;
+    margin-left: -11px;
+    margin-top: -1px;
+    font-size: 22px;
+    flex-grow: 1;
+    cursor: pointer;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
     background-color: #242424;
-    padding: 8px 16px;
-    border-radius: 20px;
-    width: 300px;
+    padding: 11px 20px;
+    border-radius: 40px;
+    width: 440px;
+    margin-left: -110px;
+    margin-top: -48px;
 }
 
 .search-bar input {
@@ -118,6 +162,12 @@ main {
     width: 100%;
     margin-left: 10px;
     outline: none;
+    font-size: 15px;
+}
+
+.search-bar i {
+    font-size: 25px;
+    color: #B7B3B6;
 }
 
 .artists-grid, .albums-grid {
