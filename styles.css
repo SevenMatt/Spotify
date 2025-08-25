@@ -44,12 +44,18 @@ body {
     display: flex;
 }
 
+.btn-entrar {
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 1220px;
+    position: absolute;
+}
+
 .entrar {
     background-color: #fff;
     color: #000;
     border: none;
     padding: 6px 10px; 
-    margin-bottom: 10px;
     cursor: pointer;
     font-size: 12px;
     border-radius: 50px;
@@ -57,7 +63,6 @@ body {
     font-weight: 700;
     height: 45px;
     width: 100px;
-    margin-left: 1200px ;
 }
 
 .button-mais i {
@@ -69,7 +74,7 @@ body {
 .nav-texto {
     list-style-type: none;
     display: flex;
-    margin-left: 690px;
+    margin-left: 600px;
     margin-top: -40px;
     padding: 5px 100px;
     gap: 10px;
@@ -236,6 +241,7 @@ main {
 .artist-card:hover,
 .album-card:hover {
     background-color: #282828;
+    align-items: center;
 }
 
 .artist-card img {
@@ -302,4 +308,52 @@ main {
 .banner button:hover {
     color: #AF2B96;
     transition: 0.3s;
+}
+
+.content h2 {
+    cursor: pointer;
+    color: #fff;
+}
+
+.download-text {
+    list-style-type: none;
+    display: flex;
+    margin-left: 940px;
+    padding: 10px;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.download-text a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #B7B3B6;
+    display: flex;
+    font-weight: 700;
+}
+
+.download-text a:hover {
+    cursor: pointer;
+    color:#fff;
+}
+
+.btn-download {
+    list-style-type: none;
+    display: flex;
+    margin-left: 920px;
+    padding: 10px;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.btn-download i {
+    font-size: 13px;
+    text-decoration: none;
+    color: #B7B3B6;
+    display: flex;
+}
+
+.btn1 i:hover {
+    cursor: pointer;
+    color: #fff;
 }
