@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -17,7 +16,7 @@ body {
     display: flex;
     height: 100vh;
     background-color: #000;
-    margin-top: 5px;
+    margin-top: 13px;
     margin-left: 45px;
 }
 
@@ -37,39 +36,80 @@ body {
 }
 
 .nav-logo i {
-    font-size:34px;
+    font-size: 36px;
     cursor: pointer;
-    margin-bottom: -60px;
-     margin-top: 20px;
+    margin-bottom: -30px;
+    margin-top: 20px;
     margin-left: 30px;
     display: flex;
 }
 
+.entrar {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    height: 45px;
+    width: 100px;
+    margin-left: 1200px ;
+}
+
 .button-mais i {
     margin-left: 300px;
-    font-size: 100px;
-
+    font-size: 200px;
+    margin-bottom: -200px
 }
-.nav-libary { 
+
+.nav-texto {
+    list-style-type: none;
+    display: flex;
+    margin-left: 690px;
+    margin-top: -40px;
+    padding: 5px 100px;
+    gap: 10px;
+}
+
+.nav-texto a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #B7B3B6;
+    display: flex;
+    font-weight: 700;
+}
+
+
+.nav-texto a:hover {
+    color: #fff;
+}
+
+.nav-libary {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-
-.nav-libary i, .nav-libary p {
+.nav-libary i,
+.nav-libary p {
     color: #B7B3B6;
     font-size: 14px;
     cursor: pointer;
 }
 
-.nav-playlist, .nav-podcast {
+.nav-playlist,
+.nav-podcast {
     background-color: #242424;
     padding: 20px;
-    border-radius: 8px;   
+    border-radius: 8px;
 }
 
-.nav-playlist button, .nav-podcast button {
+.nav-playlist button,
+.nav-podcast button {
     background-color: #fff;
     color: #000;
     border: none;
@@ -78,10 +118,11 @@ body {
     cursor: pointer;
     font-size: 12px;
     border-radius: 20px;
-    
+
 }
 
-.nav-playlist p, .nav-podcast p {
+.nav-playlist p,
+.nav-podcast p {
     font-size: 15px;
 }
 
@@ -119,17 +160,21 @@ main {
 
 .nav-bar-home {
     margin-left: 258px;
-    margin-top: 20px;
+    margin-top: -40px;
 }
 
 .button-home {
     display: flex;
     align-items: center;
     background-color: #181818;
-    padding: 13px 25px;
+    padding: 15px 25px;
     border-radius: 100%;
-    width: 10px;
-    margin-left: -170px;
+    width: 30px;
+    height: -80px;
+    margin-left: -165px;
+    cursor: pointer;
+    border: none;
+    margin-top: -10px;
 
 }
 
@@ -141,7 +186,7 @@ main {
     margin-top: -1px;
     font-size: 22px;
     flex-grow: 1;
-    cursor: pointer;
+    border: none;
 }
 
 .search-bar {
@@ -170,14 +215,16 @@ main {
     color: #B7B3B6;
 }
 
-.artists-grid, .albums-grid {
+.artists-grid,
+.albums-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 24px;
     margin-bottom: 50px;
 }
 
-.artists-grid, .albums-grid {
+.artists-grid,
+.albums-grid {
     padding: 16px;
     border-radius: 8px;
     text-align: center;
@@ -186,13 +233,14 @@ main {
     margin-top: 30px;
 }
 
-.artist-card:hover, .album-card:hover {
+.artist-card:hover,
+.album-card:hover {
     background-color: #282828;
 }
 
 .artist-card img {
     background-color: #181818;
-    width: 100%;
+    width: 60%;
     border-radius: 50%;
     margin-bottom: 16px;
     display: flex;
@@ -200,18 +248,23 @@ main {
 
 .album-card img {
     background-color: #181818;
-    width: 100%;
+    width: 60%;
     margin-bottom: 16px;
     display: flex;
 }
 
-.artist-card h3, .album-card h3 {
-    font-size: 16px;
+.artist-card h3,
+.album-card h3 {
+    margin-left: -90px;
+    font-size: 15px;
+    align-items: center;
 }
 
-.artist-card p, .album-card p {
+.artist-card p,
+.album-card p {
     font-size: 15px;
     color: #B7B3B6;
+    margin-left: -90px;
 }
 
 .container h2 {
@@ -226,7 +279,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 14px; 
+    padding: 5px 14px;
 }
 
 .banner h2 {
