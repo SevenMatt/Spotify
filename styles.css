@@ -318,7 +318,7 @@ main {
 .download-text {
     list-style-type: none;
     display: flex;
-    margin-left: 940px;
+    margin-left: 970px;
     padding: 10px;
     margin-top: 1px;
     position: absolute;
@@ -340,7 +340,7 @@ main {
 .btn-download {
     list-style-type: none;
     display: flex;
-    margin-left: 920px;
+    margin-left: 950px;
     padding: 10px;
     margin-top: 4px;
     position: absolute;
@@ -356,4 +356,27 @@ main {
 .btn1 i:hover {
     cursor: pointer;
     color: #fff;
+}
+
+.inscreva-se li {
+    text-decoration: none;
+    margin-left: 1140px;
+    list-style-type: none;
+    margin-top: 11px;
+    display: flex;
+    position: absolute;
+}
+
+.inscreva-se a {
+    color: #B7B3B6;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    
+    
+}
+
+.inscreva-se a:hover {
+    color: #fff;
+    cursor: pointer;
 }
